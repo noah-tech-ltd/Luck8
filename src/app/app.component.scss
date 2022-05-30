@@ -1,0 +1,43 @@
+.master-head {
+  min-height: 100vh;
+  padding-top: 6.5rem;
+  color: #fff;
+  background-color: #191919;
+
+  h1:first-child {
+    padding-top: 10px;
+  }
+
+  h1:nth-child(2) {
+      color: #ffde00;
+  }
+
+  p {
+    text-align: justify;
+  }
+
+  .img {
+    border-radius: 8px;
+  }
+}
+
+.navbar {
+  background: #000;
+
+  a {
+    width: 150px;
+    height: 60px;
+    background: url('../assets/images/logo.png');
+    background-size: contain;
+  }
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.btn-outline-light {
+  color: #fff;
+  border: none;
+  background: #0ae596;
+}
